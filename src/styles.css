@@ -1,11 +1,13 @@
 :root {
   --heading-font-family: "Bungee", monospace;
   --general-font-family: "Poppins", sans-serif;
-  --background-color: #bfb8c5;
+  --primary-color: #bfb8c5;
+  --secondary-color: #f8eff1;
 }
 
 body {
   font-family: var(--general-font-family);
+  background: var(--secondary-color);
 }
 
 h1 {
@@ -18,14 +20,57 @@ h2 {
   font-family: var(--general-font-family);
   font-weight: lighter;
   font-size: 40px;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
-.heading {
-  background: var(--background-color);
-  padding: 150px 50px;
+.hero {
+  background: var(--primary-color);
+  padding: 100px 42px;
 }
 
 .highlight {
-  background: #d9d3dc7a;
+  background: #f8eff14f;
+  border-radius: 30px;
+  padding: 2px 8px;
+}
+
+.container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: auto 50px;
+}
+
+.img-fluid {
+  border-radius: 30px;
+}
+
+.title h2 {
+  line-height: 0.9;
+}
+.title .about {
+  font-size: 25px;
+}
+.caps-name {
+  font-family: var(--heading-font-family);
+  padding-left: 20px;
+}
+
+.about-paragraph {
+  line-height: 2;
+}
+
+.check-projects {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  border-radius: 30px;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  padding: 10px 8px;
+  color: #212529;
+  text-decoration: none;
+}
+.check-projects:hover {
+  color: var(--secondary-color);
+  transition: 350ms ease-in-out;
 }
