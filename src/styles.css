@@ -1,16 +1,31 @@
-/* font-family: 'Bungee', cursive;
-font-family: 'Poppins', sans-serif; */
+:root {
+  --heading-font-family: "Bungee", monospace;
+  --general-font-family: "Poppins", sans-serif;
+  --background-color: #bfb8c5;
+}
+
+body {
+  font-family: var(--general-font-family);
+}
 
 h1 {
-  font-family: "Bungee", cursive;
+  font-family: var(--heading-font-family);
+  font-size: 80px;
+  margin: 0;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--general-font-family);
   font-weight: lighter;
+  font-size: 40px;
+  line-height: 1.7;
 }
 
 .heading {
-  background: rgb(192, 180, 204);
-  padding: 50px;
+  background: var(--background-color);
+  padding: 150px 50px;
+}
+
+.highlight {
+  background: #d9d3dc7a;
 }
