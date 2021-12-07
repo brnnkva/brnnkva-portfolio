@@ -9,3 +9,8 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: lighter;
 }
+
+.heading {
+  background: rgb(192, 180, 204);
+  padding: 50px;
+}
