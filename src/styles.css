@@ -1,0 +1,11 @@
+/* font-family: 'Bungee', cursive;
+font-family: 'Poppins', sans-serif; */
+
+h1 {
+  font-family: "Bungee", cursive;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
