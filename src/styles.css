@@ -56,21 +56,44 @@ h2 {
 }
 
 .about-paragraph {
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .check-projects {
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   margin-top: 30px;
   border-radius: 30px;
   border: 1px solid var(--primary-color);
   background: var(--primary-color);
-  padding: 10px 8px;
+  padding: 10px 20px;
   color: #212529;
   text-decoration: none;
 }
 .check-projects:hover {
   color: var(--secondary-color);
   transition: 350ms ease-in-out;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 80px 42px;
+  }
+
+  .container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .check-projects {
+    display: block;
+  }
 }
