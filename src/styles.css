@@ -1,9 +1,9 @@
 :root {
   --heading-font-family: "Bungee", monospace;
   --general-font-family: "Poppins", sans-serif;
-  --primary-color: #bfb8c5;
+  --primary-color: #f05454;
   --secondary-color: #ffffff;
-  --general-color: #dcdadd6c;
+  --general-color: #676fa3;
 }
 
 body {
@@ -24,15 +24,13 @@ h2 {
   line-height: 1.6;
 }
 
+p {
+  color: var(--secondary-color);
+}
+
 .hero {
   background: var(--primary-color);
   padding: 100px 42px;
-}
-
-.highlight {
-  background: #f8eff14f;
-  border-radius: 30px;
-  padding: 2px 8px;
 }
 
 .container {
@@ -43,6 +41,7 @@ h2 {
 
 .profile-picture {
   border-radius: 30px;
+  border: 5px solid var(--secondary-color);
 }
 
 .title h2 {
@@ -84,6 +83,7 @@ h2 {
   opacity: 0.8;
   padding: 15px;
 }
+
 .tools-logos img {
   max-width: 50%;
 }
