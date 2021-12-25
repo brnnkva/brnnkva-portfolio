@@ -2,24 +2,25 @@
   --heading-font-family: "Bungee", monospace;
   --general-font-family: "Poppins", sans-serif;
   --primary-color: #bfb8c5;
-  --secondary-color: #f8eff1;
+  --secondary-color: #ffffff;
+  --general-color: #dcdadd6c;
 }
 
 body {
   font-family: var(--general-font-family);
-  background: var(--secondary-color);
+  background: var(--general-color);
 }
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 80px;
+  font-size: 95px;
   margin: 0;
 }
 
 h2 {
   font-family: var(--general-font-family);
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 65px;
   line-height: 1.6;
 }
 
@@ -75,6 +76,16 @@ h2 {
 .check-projects:hover {
   color: var(--secondary-color);
   transition: 350ms ease-in-out;
+}
+
+.tools-logos {
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  opacity: 0.8;
+  padding: 15px;
+}
+.tools-logos img {
+  max-width: 50%;
 }
 
 @media (max-width: 768px) {
