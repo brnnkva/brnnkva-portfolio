@@ -2,7 +2,7 @@
   --heading-font-family: "Bungee", monospace;
   --general-font-family: "Poppins", sans-serif;
   --primary-color: #f05454;
-  --secondary-color: #ffffff;
+  --secondary-color: #ffffffcc;
   --general-color: #676fa3;
 }
 
@@ -55,7 +55,8 @@ p {
   padding-left: 20px;
 }
 
-.about-paragraph {
+.about-paragraph,
+.about-experience {
   line-height: 1.9;
   font-weight: 300;
 }
@@ -76,11 +77,13 @@ p {
   color: var(--secondary-color);
   transition: 350ms ease-in-out;
 }
-
+.tech-n-tools {
+  margin-top: 10%;
+}
 .tools-logos {
-  background-color: var(--secondary-color);
+  background-color: #ffffff;
   border-radius: 30px;
-  opacity: 0.8;
+  opacity: 0.7;
   padding: 15px;
 }
 
@@ -112,5 +115,12 @@ p {
 
   .check-projects {
     display: block;
+  }
+
+  .tech-n-tools {
+    margin-top: 0;
+  }
+  .code-experience {
+    margin-top: 20px;
   }
 }
