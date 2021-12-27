@@ -28,6 +28,13 @@ p {
   color: var(--secondary-color);
 }
 
+ul {
+  color: var(--secondary-color);
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
 .hero {
   background: var(--primary-color);
   padding: 100px 42px;
@@ -64,7 +71,7 @@ p {
 .check-projects {
   margin: 0 auto;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 40px;
   border-radius: 30px;
   border: 1px solid var(--primary-color);
   background: var(--primary-color);
@@ -78,7 +85,7 @@ p {
   transition: 350ms ease-in-out;
 }
 .tech-n-tools {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .tools-logos {
   background-color: #ffffff;
@@ -89,6 +96,12 @@ p {
 
 .tools-logos img {
   max-width: 50%;
+}
+
+.shecodes-logo {
+  max-width: 26%;
+  position: relative;
+  top: -4px;
 }
 
 @media (max-width: 768px) {
