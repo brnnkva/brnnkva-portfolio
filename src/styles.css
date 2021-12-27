@@ -46,10 +46,11 @@ ul {
 }
 .experience-hero {
   background: var(--general-color);
-  padding: 50px 42px;
+  padding: 50px 60px;
 }
 .projects-hero {
   background: #cddeff;
+  padding: 50px 60px;
 }
 
 .homepage-container {
@@ -61,7 +62,7 @@ ul {
 .projects-container {
   margin-top: 100px;
   margin-bottom: 50px;
-  padding: auto 50px;
+  padding: auto 60px;
 }
 
 .profile-picture {
