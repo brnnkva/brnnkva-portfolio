@@ -24,6 +24,10 @@ h2 {
   line-height: 1.6;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 p {
   color: var(--secondary-color);
 }
@@ -33,16 +37,30 @@ ul {
   list-style: none;
   padding-left: 0;
   line-height: 2;
+  opacity: 0.8;
 }
 
 .hero {
   background: var(--primary-color);
   padding: 100px 42px;
 }
+.experience-hero {
+  background: var(--general-color);
+  padding: 50px 42px;
+}
+.projects-hero {
+  background: #cddeff;
+}
 
-.container {
+.homepage-container {
   margin-top: 150px;
   margin-bottom: 100px;
+  padding: auto 50px;
+}
+.experience-container,
+.projects-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
   padding: auto 50px;
 }
 
@@ -84,14 +102,12 @@ ul {
   color: var(--secondary-color);
   transition: 350ms ease-in-out;
 }
-.tech-n-tools {
-  margin-top: 6%;
-}
+
 .tools-logos {
   background-color: #ffffff;
   border-radius: 30px;
-  opacity: 0.7;
-  padding: 15px;
+  opacity: 0.6;
+  padding: 25px 15px;
 }
 
 .tools-logos img {
@@ -130,9 +146,6 @@ ul {
     display: block;
   }
 
-  .tech-n-tools {
-    margin-top: 0;
-  }
   .code-experience {
     margin-top: 20px;
   }
