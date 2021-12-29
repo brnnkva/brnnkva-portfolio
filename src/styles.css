@@ -32,7 +32,7 @@ p {
   color: var(--secondary-color);
 }
 nav {
-  padding: 15px 0;
+  padding: 15px 5px;
 }
 .main-nav {
   background: var(--primary-color);
@@ -55,6 +55,12 @@ nav a {
 }
 nav a:hover {
   color: rgb(0, 0, 0);
+}
+
+nav i {
+  font-size: 20px;
+  position: relative;
+  top: 3px;
 }
 
 ul {
@@ -161,6 +167,13 @@ small {
   border-radius: 30px;
   opacity: 0.8;
   border: 5px solid var(--secondary-color);
+}
+
+.loading-icon {
+  margin-top: 90px;
+  display: block;
+  font-size: 50px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
