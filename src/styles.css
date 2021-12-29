@@ -91,6 +91,7 @@ small {
 .about-experience {
   line-height: 1.9;
   font-weight: 350;
+  font-size: 18px;
 }
 
 .check-projects,
@@ -113,22 +114,14 @@ small {
   border: 2px solid var(--secondary-color);
 }
 
-.tools-logos {
-  background-color: #ffffff;
-  border-radius: 30px;
-  border: 5px solid var(--secondary-color);
-  opacity: 0.7;
-  padding: 25px 15px;
-}
-
-.tools-logos img {
-  max-width: 25%;
-}
-
 .shecodes-logo {
-  max-width: 26%;
+  max-width: 30%;
   position: relative;
   top: -4px;
+}
+
+.courses {
+  font-size: 20px;
 }
 
 .project-row {
