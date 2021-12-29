@@ -2,7 +2,7 @@
   --heading-font-family: "Bungee", monospace;
   --general-font-family: "Poppins", sans-serif;
   --primary-color: #f05454ea;
-  --secondary-color: #eef2ffcc;
+  --secondary-color: #eef2ffda;
   --general-color: #676fa3;
 }
 
@@ -31,14 +31,40 @@ h3 {
 p {
   color: var(--secondary-color);
 }
+nav {
+  padding: 15px 0;
+}
+.main-nav {
+  background: var(--primary-color);
+}
+.experience-nav {
+  background: var(--general-color);
+}
+.projects-nav {
+  background: var(--secondary-color);
+}
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212529;
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  color: rgb(0, 0, 0);
+}
 
 ul {
   color: var(--secondary-color);
   list-style: none;
   padding-left: 0;
+  margin: 0;
   line-height: 2;
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 small {
@@ -65,14 +91,17 @@ small {
 }
 .experience-container,
 .projects-container {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 50px;
   padding: auto 60px;
 }
 
 .profile-picture {
+  margin: 0 auto;
+  display: block;
   border-radius: 30px;
   border: 5px solid var(--secondary-color);
+  max-width: 85%;
 }
 
 .title h2 {
@@ -91,7 +120,6 @@ small {
 .about-experience {
   line-height: 1.9;
   font-weight: 350;
-  font-size: 18px;
 }
 
 .check-projects,
@@ -148,6 +176,9 @@ small {
     padding: 80px 42px;
   }
 
+  nav a {
+    font-size: 14px;
+  }
   .container {
     margin-top: 100px;
     margin-bottom: 50px;
