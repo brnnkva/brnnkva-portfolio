@@ -151,11 +151,11 @@ footer .contact-me {
   padding: 10px 20px;
   color: #212529;
   text-decoration: none;
+  transition: 350ms ease-in-out;
 }
 .check-projects:hover,
 .launch-project:hover {
   color: var(--secondary-color);
-  transition: 350ms ease-in-out;
   border: 2px solid var(--secondary-color);
 }
 
@@ -197,26 +197,58 @@ footer .contact-me {
   }
 
   .hero {
-    padding: 80px 42px;
+    padding: 40px 42px;
   }
 
   nav a {
+    font-size: 12px;
+  }
+  footer .contact-me {
     font-size: 14px;
   }
+  footer .social-icons {
+    font-size: 15px;
+  }
+
+  .title h2 {
+    line-height: 1;
+    font-size: 20px;
+  }
+  .title .about {
+    font-size: 15px;
+  }
+
   .container {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
   }
 
   .about-me-content {
     margin-top: 15px;
   }
+  .about-me-content p {
+    font-size: 12px;
+  }
 
-  .check-projects {
+  .experience-container .about-experience {
+    font-size: 14px;
+  }
+  .experience-container ul {
+    font-size: 14px;
+  }
+
+  .check-projects,
+  .launch-project {
     display: block;
+    font-size: 12px;
   }
 
   .code-experience {
     margin-top: 20px;
+  }
+  .experience-container .column-2 {
+    margin-top: 30px;
+    font-size: 15px;
   }
 }
