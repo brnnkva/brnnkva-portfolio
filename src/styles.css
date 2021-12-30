@@ -89,6 +89,11 @@ footer .social-icons a:hover {
 footer .contact-me {
   text-align: center;
 }
+
+footer .open-sourced {
+  font-size: 13px;
+  opacity: 0.9;
+}
 .hero {
   background: var(--primary-color);
   padding: 100px 42px;
@@ -187,6 +192,14 @@ footer .contact-me {
   text-align: center;
 }
 
+.github-project-link {
+  text-decoration: none;
+  color: #212529;
+}
+.github-project-link:hover {
+  color: var(--general-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -197,7 +210,7 @@ footer .contact-me {
   }
 
   .hero {
-    padding: 40px 42px;
+    padding: 40px 20px;
   }
 
   nav a {
