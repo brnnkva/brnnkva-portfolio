@@ -77,6 +77,25 @@ small {
   color: var(--secondary-color);
 }
 
+footer {
+  margin-top: 100px;
+  background: var(--secondary-color);
+  padding: 40px 0 40px 0;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+  color: #212529;
+  margin: 0 10px;
+  font-size: 30px;
+}
+footer .social-icons a:hover {
+  color: var(--general-color);
+}
+
+footer .contact-me {
+  text-align: center;
+}
 .hero {
   background: var(--primary-color);
   padding: 100px 42px;
@@ -92,7 +111,7 @@ small {
 
 .homepage-container {
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   padding: auto 50px;
 }
 .experience-container,
@@ -119,7 +138,6 @@ small {
 }
 .caps-name {
   font-family: var(--heading-font-family);
-  padding-left: 20px;
 }
 
 .about-paragraph,
