@@ -7,8 +7,8 @@
 }
 
 body {
-  font-family: var(--general-font-family);
   background: var(--general-color);
+  font-family: var(--general-font-family);
 }
 
 h1 {
@@ -19,8 +19,8 @@ h1 {
 
 h2 {
   font-family: var(--general-font-family);
-  font-weight: lighter;
   font-size: 65px;
+  font-weight: lighter;
   line-height: 1.6;
 }
 
@@ -31,6 +31,7 @@ h3 {
 p {
   color: var(--secondary-color);
 }
+
 nav {
   padding: 15px 5px;
 }
@@ -43,14 +44,14 @@ nav {
 .projects-nav {
   background: var(--secondary-color);
 }
+
 nav li {
   display: inline;
   margin: 10px;
 }
-
 nav a {
-  text-decoration: none;
   color: #212529;
+  text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 nav a:hover {
@@ -60,43 +61,15 @@ nav a:hover {
 ul {
   color: var(--secondary-color);
   list-style: none;
-  padding-left: 0;
-  margin: 0;
   line-height: 2;
+  margin: 0;
   opacity: 0.8;
+  padding-left: 0;
 }
 
-small {
-  color: var(--secondary-color);
-}
-
-footer {
-  margin-top: 100px;
-  background: var(--secondary-color);
-  padding: 40px 0 40px 0;
-}
-
-footer .social-icons a {
-  text-decoration: none;
-  color: #212529;
-  margin: 0 10px;
-  font-size: 30px;
-}
-footer .social-icons a:hover {
-  color: var(--general-color);
-}
-
-footer .contact-me {
-  text-align: center;
-}
-
-footer .open-sourced {
-  font-size: 13px;
-  opacity: 0.9;
-}
 .hero {
   background: var(--primary-color);
-  padding: 100px 42px;
+  padding: 100px 60px;
 }
 .experience-hero {
   background: var(--general-color);
@@ -120,48 +93,50 @@ footer .open-sourced {
 }
 
 .profile-picture {
-  margin: 0 auto;
-  display: block;
   border-radius: 30px;
   border: 5px solid var(--secondary-color);
-  max-width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
-.title h2 {
-  line-height: 0.8;
+.homepage-container .title h2 {
   font-size: 50px;
+  line-height: 0.8;
 }
-.title .about {
+.homepage-container .title .about {
   font-size: 25px;
 }
-.caps-name {
+
+.caps {
   font-family: var(--heading-font-family);
 }
 
 .about-paragraph,
 .about-experience {
-  line-height: 1.9;
   font-weight: 350;
+  line-height: 1.7;
+  padding-right: 5px;
+  text-align: justify;
 }
 
 .check-projects,
 .launch-project {
-  margin: 0 auto;
-  display: inline-block;
-  margin-top: 40px;
   border-radius: 30px;
   border: 1px solid var(--primary-color);
   background: var(--primary-color);
-  font-size: 15px;
-  padding: 10px 20px;
   color: #212529;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px 20px;
   text-decoration: none;
   transition: 350ms ease-in-out;
 }
 .check-projects:hover,
 .launch-project:hover {
-  color: var(--secondary-color);
   border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .shecodes-logo {
@@ -169,34 +144,57 @@ footer .open-sourced {
   position: relative;
   top: -4px;
 }
-
-.courses {
-  font-size: 20px;
-}
-
-.project-row {
-  border-radius: 30px;
-  margin: 15px auto;
-}
-
-.project-row img {
-  border-radius: 30px;
-  opacity: 0.8;
-  border: 5px solid var(--secondary-color);
-}
-
 .loading-icon {
-  margin-top: 90px;
   display: block;
   font-size: 50px;
+  margin-top: 90px;
   text-align: center;
 }
 
-.github-project-link {
-  text-decoration: none;
-  color: #212529;
+.experience-container .courses {
+  font-size: 18px;
 }
-.github-project-link:hover {
+
+.projects-container .project-row {
+  border-radius: 30px;
+  margin: 15px auto;
+}
+.project-row img {
+  border: 5px solid var(--secondary-color);
+  border-radius: 30px;
+  opacity: 0.8;
+}
+
+footer {
+  background: var(--secondary-color);
+  margin-top: 100px;
+  padding: 40px 0 40px 0;
+}
+.projects-footer {
+  background: var(--primary-color);
+}
+footer .social-icons a {
+  color: #212529;
+  font-size: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer .social-icons a:hover {
+  color: var(--general-color);
+}
+footer .contact-me {
+  text-align: center;
+}
+footer .open-sourced {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+footer .github-project-link {
+  color: #212529;
+  text-decoration: none;
+}
+footer .github-project-link:hover {
   color: var(--general-color);
 }
 
@@ -213,6 +211,12 @@ footer .open-sourced {
     padding: 40px 20px;
   }
 
+  .container {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
   nav a {
     font-size: 12px;
   }
@@ -223,18 +227,12 @@ footer .open-sourced {
     font-size: 15px;
   }
 
-  .title h2 {
-    line-height: 1;
+  .homepage-container .title h2 {
     font-size: 20px;
+    line-height: 1;
   }
-  .title .about {
+  .homepage-container .title .about {
     font-size: 15px;
-  }
-
-  .container {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    text-align: center;
   }
 
   .about-me-content {
@@ -257,11 +255,8 @@ footer .open-sourced {
     font-size: 12px;
   }
 
-  .code-experience {
-    margin-top: 20px;
-  }
   .experience-container .column-2 {
-    margin-top: 30px;
     font-size: 15px;
+    margin-top: 30px;
   }
 }
