@@ -151,8 +151,9 @@ ul {
   text-align: center;
 }
 
-.experience-container .courses {
+.experience-container .courses li {
   font-size: 18px;
+  text-align: start;
 }
 
 .projects-container .project-row {
